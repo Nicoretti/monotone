@@ -1,3 +1,8 @@
+# ignroe idea settings
+.idea/
+# ignore coverage files
+coverage.lcov
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
