@@ -1,0 +1,29 @@
+[tool.coverage.run]
+source = [
+    "konfy",
+]
+omit = [
+    "konfy/setup.py"
+]
+
+[tool.pylint.master]
+fail-under = 8
+
+[tool.pylint.format]
+max-line-length = 88
+max-module-lines = 800
+
+[tool.black]
+line-length = 88
+verbose = false
+include = "\\.pyi?$"
+
+[tool.isort]
+profile = "black"
+force_grid_wrap = 2
+
+[tool.mypy]
+files = [
+    'noxfile.py',
+    'konfy/**/*.py',
+]

@@ -1,0 +1,10 @@
+coverage
+pytest
+black
+isort
+pylint
+pyupgrade
+mypy
+nox
+twine
+wheel
