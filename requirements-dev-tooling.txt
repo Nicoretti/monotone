@@ -8,3 +8,4 @@ mypy
 nox
 twine
 wheel
+scriv
